@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+input {
+  padding: 10px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+input.valid {
+  border-color: green;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+p {
+  opacity: 0;
+  height: 0;
+}
+
+p.valid {
+  color: green;
+  opacity: 1;
+  height: auto;
+}
+p.invalid {
+  color: red;
+  opacity: 1;
+  height: auto;
+}

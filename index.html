@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+    <title>Form Validation(Regular Expression)</title>
+</head>
+<body>
+    <div class="container">
+        <h1>New User Signup</h1>
+        <form>
+            <input name="username" type="text" placeholder="username">
+            <p>User must be alphanumeric and contain 5-12 charaters</p>
+            
+            <input name="email" type="email" placeholder="email">
+            <p>Email must be valid address e.g me@mydomain.con</p>
+
+            <input name="password" type="password" placeholder="password">
+            <p>Password must be alphanumeric(@,- and _ are allowed) and be 8-20 characters</p>
+
+            <input name="telephone" type="text" placeholder="telephone">
+            <p>Telephone must be a valid Bangladesh number 11 digits</p>
+
+            <input name="slug" type="text" placeholder="profile slug">
+            <p>slug must contain only lowercase letters,numbers adn hyphens and be 8-20 charactersa</p>
+        </form>
+                
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
